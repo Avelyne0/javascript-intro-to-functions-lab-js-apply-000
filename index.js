@@ -11,7 +11,7 @@ var lowercase = 'hello!'
 var mixedCase = 'Hi there!'
   
 function logShout(string){
-  const spy = expect.spyOn(console, 'log').andCallThrough()
+  console.log(string.toUpperCase())
 }
 
 function logWhisper(string){
