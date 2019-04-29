@@ -12,6 +12,6 @@ function logShout(string){
 
 function logWhisper(string)
 
-function
+function sayHiToGrandma(string)
 
 function
