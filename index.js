@@ -19,7 +19,5 @@ function logWhisper(string){
 }
 
 function sayHiToGrandma(string){
-  console.log(string.toLowerCase())
-  console.log(string.toUpperCase())
-  return "I love you, Grandma."
+  expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`)
 }
