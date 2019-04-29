@@ -7,8 +7,7 @@ function whisper(string){
 }
 
 function logShout(string){
-  console.log()
-  const expect.spyOn === uppercase
+  console.log(string.toUpperCase() === uppercase)
 }
 
 function logWhisper(string){
